@@ -14,12 +14,12 @@ The script is the file below:
 
 ### Election-Audit Results
 
-- Total Votes Cast  - 369,711
+- Total Votes Cast - 369,711
 - Number of votes and the percentage of total votes for each county:
   - Jefferson: 10.5% (38,855 Votes)
   - Denver: 82.8% (306,055 Votes)
-  - Araphahoe: 6.7% (24,801 Votes)
-- County with largest number of votes was Devner
+  - Arapahoe: 6.7% (24,801 Votes)
+- County with largest number of votes was Denver
 - Breakdown of the number of votes and the percentage of the total votes each candidate received 
   - Charles Casper Stockham: 23.0% (85,213 Votes)
   - Diana DeGette: 73.8% (273,892 Votes)
@@ -33,6 +33,8 @@ The result output can be found in the following file:
 ### Election-Audit Summary
 
 #### Proposal on how the script can be used for other elections
+
+The code provided should be used in any future election where the data can be collected and consolidated into a clean CSV file. The code is written in a way where the number of candidates or counties does not change the output.
 
 The script used in the congressional election can be used in other elections as long as there is an already clean CSV file with the following fields in the following order:
 
@@ -48,6 +50,9 @@ If a new data source is used with data in an order different than the one listed
 See image below for where to change the code mentioned above:
 
 ![Election_Analysis_Row_Selection]. (https://github.com/pritchardjeff/Election_Analysis/blob/master/Election_Analysis_Row_Selection.png)
+
+If a different geographic category is going to be used, perhaps zip code instead of county, then the variables and text related to county would need to be changed to Zip code to ensure the outputs make sense. Essentially any code with county or counties would need to be replaced with zip_code or zip_codes.
+
 
 
 
