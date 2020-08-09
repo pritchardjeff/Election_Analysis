@@ -49,7 +49,7 @@ If a new data source is used with data in an order different than the one listed
 
 See image below for where to change the code mentioned above:
 
-![Election_Analysis_Row_Selection]. (https://github.com/pritchardjeff/Election_Analysis/blob/master/Election_Analysis_Row_Selection.png)
+![Election_Analysis_Row_Selection] (https://github.com/pritchardjeff/Election_Analysis/blob/master/Election_Analysis_Row_Selection.png)
 
 If a different geographic category is going to be used, perhaps zip code instead of county, then the variables and text related to county would need to be changed to Zip code to ensure the outputs make sense. Essentially any code with county or counties would need to be replaced with zip_code or zip_codes.
 
